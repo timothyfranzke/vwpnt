@@ -20,7 +20,7 @@ app.add_middleware(
     allow_methods=["*"],  # Allows all methods
     allow_headers=["*"],  # Allows all headers
 )
-os.environ["OPENAI_API_KEY"] = "sk-sjuTrDHM6RveyOlbic9P4RftNdp0MUIukVNtvSP5A5T3BlbkFJP9VSYHgjh86fYkaamVfdw62Glub85ydiEPXXvHHnYA"
+os.environ["OPENAI_API_KEY"] = "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"
 # Ensure you have set the OPENAI_API_KEY environment variable
 if "OPENAI_API_KEY" not in os.environ:
     raise ValueError("OPENAI_API_KEY environment variable is not set")
